@@ -1,0 +1,37 @@
+
+.fundo{
+    opacity: 0.2;
+    z-index: -1000;
+    position: fixed;
+}
+
+.fundo img{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.msg{
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.img-zap{
+    display: flex;
+}
+
+.img-zap img{
+    width: 300px;
+}
+
+.msg button img{
+    width: 30px;
+}
+
+.msg p#lock{
+    font-size: 1.4em;
+}

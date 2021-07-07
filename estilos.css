@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+.itens-servicos{
+    width: 350px;
+    margin-bottom: 4vw; 
+    display: flex; 
+    justify-content: center; 
+    background-color: white;
+    text-align: center;
+}
+
+.itens_linha{
+justify-content: space-around;    align-items: flex-start;
+}
+
+.sobre{
+    background-color: black;
+    color: white;
+}
+
+.container-imagem {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    /* adicionando imagem de fundo */
+    background: url('index_files/back_ar.jpg');
+    background-size: cover;
+}
